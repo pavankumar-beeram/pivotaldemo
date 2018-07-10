@@ -4,4 +4,4 @@ applications:
   memory: 1024M
   instances: 1
   
-  path: target/db-service-0.0.1-SNAPSHOT.jar
+  path: target/pivotaldemo-0.0.1-SNAPSHOT.jar
