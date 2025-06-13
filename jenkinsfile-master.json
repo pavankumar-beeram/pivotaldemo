@@ -1,0 +1,40 @@
+{
+  "version": "0.1",
+  "deployments": [
+    { "env": "dev", "dc": [ "default" ] },
+    { "env": "test", "dc": [ "default" ] },
+    { "env": "prod", "dc": [ "default" ] }
+  ],
+  "jenkinsfile": {
+    "dc": {
+      "default": {
+        "env": {
+          "dev": {
+            "instances": [
+              {
+                "name": "dev-app",
+                "description": "Dummy Dev Instance"
+              }
+            ]
+          },
+          "test": {
+            "instances": [
+              {
+                "name": "test-app",
+                "description": "Dummy Test Instance"
+              }
+            ]
+          },
+          "prod": {
+            "instances": [
+              {
+                "name": "prod-app",
+                "description": "Dummy Prod Instance"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
