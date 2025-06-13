@@ -12,7 +12,7 @@
           "dev": {
             "instances": [
               {
-                "name": "dev-app",
+                "name": "app",
                 "description": "Dummy Dev Instance"
               }
             ]
@@ -20,7 +20,7 @@
           "test": {
             "instances": [
               {
-                "name": "test-app",
+                "name": "app",
                 "description": "Dummy Test Instance"
               }
             ]
@@ -28,7 +28,7 @@
           "prod": {
             "instances": [
               {
-                "name": "prod-app",
+                "name": "app",
                 "description": "Dummy Prod Instance"
               }
             ]
